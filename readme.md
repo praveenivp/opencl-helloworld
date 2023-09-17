@@ -25,6 +25,15 @@ cmake ..
 make 
 ./HelloOpenCL
 ```
+##### output
+```bash
+❯ make && ./HelloOpenCL
+[100%] Built target HelloOpenCL
+Number of openCL devices= 1
+Device 0 :
+Platform Name = NVIDIA CUDA, Platform Version = OpenCL 3.0 CUDA 12.2.138
+```
+
 you can perform `ccmake` to see all PATHS are valid!
 
 ## Additional reference
